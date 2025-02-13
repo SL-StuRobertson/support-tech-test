@@ -1,7 +1,7 @@
 const date = new Date().toISOString();
 const brokenCapabilities = {
     'browserName': 'googlechrome',
-    'platformName': 'macOS 10.15',
+    'platformName': 'macOS 13',
     'browserVersion': 'latest',
     'sauce:options': {
         'name': 'Broken Google Search',
@@ -12,7 +12,7 @@ const brokenCapabilities = {
 
 const workingCapabilities = {
     'browserName': 'googlechrome',
-    'platformName': 'macOS 10.15',
+    'platformName': 'macOS 13',
     'browserVersion': 'latest',
     'sauce:options': {
         'name': 'Guinea-Pig Sauce',
