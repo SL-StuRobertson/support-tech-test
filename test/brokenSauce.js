@@ -12,9 +12,10 @@ const ONDEMAND_URL = `https://${SAUCE_USERNAME}:${SAUCE_ACCESS_KEY}@ondemand.us-
 /**
 * Run this test before working on the problem.
 * When you view the results on your dashboard, you'll see that the test "Failed".
-* Your job is to figure out why the test failed and make the changes necessary to make the test pass.
-* Once you get the test working, update the code so that when the test runs, it can reach the Sauce Labs homepage,
-* hover over 'Developers' and then clicks the 'Documentation' link
+* Your job is to:
+* 1) Figure out why the test failed and make the changes necessary to make the test pass.
+* 2) Once you get the test working, update the code so that when the test runs, it can reach the Sauce Labs homepage,
+* 3) hover over 'Developers' and then clicks the 'Documentation' link
 */
 
 describe('Broken Sauce', function () {
